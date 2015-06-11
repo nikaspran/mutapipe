@@ -1,0 +1,33 @@
+{
+  "name": "mutapipe",
+  "version": "1.0.0",
+  "description": "A library for creating modifiable streams",
+  "author": "Nikas Praninskas <nikaspran@gmail.com>",
+  "homepage": "https://github.com/nikaspran/mutapipe",
+  "bugs": {
+    "url": "https://github.com/nikaspran/fluent.js/issues"
+  },
+  "main": "lib/mutapipe.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "ramda": "^0.14.0",
+    "stream-combiner": "^0.2.1"
+  }
+  "devDependencies": {
+    "event-stream": "^3.3.1",
+    "expect.js": "^0.3.1",
+    "fluent.js": "^0.1.3",
+    "gulp": "^3.8.11",
+    "gulp-bump": "^0.3.1",
+    "gulp-filter": "^2.0.2",
+    "gulp-git": "^1.2.4",
+    "gulp-jshint": "^1.10.0",
+    "gulp-mocha": "^2.0.1",
+    "gulp-tag-version": "^1.2.1",
+    "jshint-stylish": "^1.0.1",
+    "run-sequence": "^1.1.0"
+  },
+  "license": "MIT"
+}
