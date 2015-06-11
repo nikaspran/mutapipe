@@ -5,7 +5,7 @@ A library for creating modifiable streams, useful in Gulp. Inspired by [lazypipe
 ## Installation
 
 ```
-npm install mutapipe --save-dev
+npm install mutapipe --save
 ```
 
 ## Usage
