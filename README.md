@@ -1,8 +1,6 @@
 # mutapipe
 
-A library for creating modifiable streams, useful in Gulp
-
-> Inspired by [lazypipe](https://github.com/OverZealous/lazypipe/)
+A library for creating modifiable streams, useful in Gulp. Inspired by [lazypipe](https://github.com/OverZealous/lazypipe/)
 
 ## Installation
 
