@@ -10,21 +10,20 @@ npm install mutapipe --save
 
 ## Usage
 
-### Simple functions
+Supports the same basic API as [lazypipe](https://github.com/OverZealous/lazypipe/).
 
-TODO
 ```js
+var mutapipe = require('mutapipe'),
+  by = mutapipe.by;
+
+var pipeline = mutapipe()
+  .pipe(jshint)
+  .pipe(jshint.reporter, 'jshint-stylish');
+
+pipeline = pipeline.replace(by.task(jshint.reporter)).with(jshint.reporter, 'default');
 ```
 
-### Extending objects (and prototypes)
-
-TODO
-```js
-```
-
-## TODO
-
-* Documentation
+For more examples see [tests](lib/mutapipe.spec.js).
 
 ## Contributing
 
