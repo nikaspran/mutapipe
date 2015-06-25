@@ -12,7 +12,7 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "ramda": "^0.14.0",
+    "ramda": "^0.15.0",
     "stream-combiner": "^0.2.1"
   },
   "devDependencies": {
