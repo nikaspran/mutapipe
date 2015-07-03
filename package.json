@@ -1,6 +1,6 @@
 {
   "name": "mutapipe",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "A library for creating modifiable streams",
   "author": "Nikas Praninskas <nikaspran@gmail.com>",
   "homepage": "https://github.com/nikaspran/mutapipe",
