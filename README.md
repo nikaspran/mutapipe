@@ -1,4 +1,4 @@
-# mutapipe
+# mutapipe [![Build Status](https://travis-ci.org/nikaspran/mutapipe.svg?branch=master)](https://travis-ci.org/nikaspran/mutapipe)
 
 A library for creating modifiable streams, useful in Gulp. Inspired by [lazypipe](https://github.com/OverZealous/lazypipe/).
 
